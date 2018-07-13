@@ -5,26 +5,30 @@ body {
   font-family: 'Hind', sans-serif;
 }
 
+/* Main Container ======================== */
+
 .container {
   color: #708090;
   margin: 20px 150px;
 }
-#project-container{
+#nav-container{
   display: flex;
   justify-content: flex-end;
   text-decoration: none;
 }
 
+/* NavBar ===================== */
 .navlink {
   text-decoration: none;
   color: #999;
   margin-right: 10px;
 }
 
+/* Intro ================================== */
 #intro{
   max-width: 50%;
 }
-#intro-h2{
+.intro-h2{
   font-weight: 100;
   font-size: 35px;
   margin-bottom: 0;
@@ -45,6 +49,68 @@ body {
   -o-border-radius: 3px;
 }
 
+/* Skills =========================== */
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(70px, 1fr));
+  grid-gap: 10px;
+}
+.skill-icon-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 5px;
+  align-items: center;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  color: white;
+}
+.skills-icon {
+  font-size: 30px;
+}
+.skill-title{
+  font-size: 22px;
+}
+/* Child */
+#react {
+  background-color: #61DAFB;
+}
+#node {
+  background-color: #7AB560;
+}
+#javascript {
+  background-color: #F0DB4F;
+}
+#mongodb {
+  background-color: #4FAA41;
+}
+#css3 {
+  background-color: #3D8FC6;
+}
+#html5 {
+  background-color: #E54D26;
+}
+#bootstrap {
+  background-color: #59407F;
+}
+#graphql {
+  background-color: #E535AB;
+}
+#apollo {
+  background-color: #1D127D;
+}
+#git {
+  background-color: #F34F29;
+}
+#express {
+  background-color: #444444;
+}
+#heroku {
+  background-color: #6762A6;
+}
+/* Social ================================= */
 .social {
   margin-top: 30px;
   display: flex;
@@ -99,17 +165,21 @@ body {
   font-size: 14px;
 }
 
+/* Footer =========================== */
+
 footer{
   margin-top: 40px;
 }
 
 
-/* Media Queries */
+/* Media Queries ================================================ */
 @media only screen and (max-width: 1040px) {
   #intro {
     max-width: 80%;
   }
-
+  .skills-container {
+    grid-template-columns: repeat(4, minmax(30px, 1fr));
+  }
   .social > * {
     padding: 20px;
     flex-basis: 170px;
@@ -127,11 +197,14 @@ footer{
 }
 
 @media only screen and (max-width: 850px) {
-  #intro-h2{
+  .intro-h2{
     font-size: 30px;
   }
   #intro-h4{
     font-size: 22px;
+  }
+  .skills-container {
+    grid-template-columns: repeat(3, minmax(30px, 1fr));
   }
   .social > * {
     padding: 15px;
@@ -139,8 +212,14 @@ footer{
   }
 }
 
+@media only screen and (max-width: 720px) {
+  .skills-container {
+    grid-template-columns: repeat(2, minmax(30px, 1fr));
+  }
+}
+
 @media only screen and (max-width: 750px) {
-  #intro-h2{
+  .intro-h2{
     font-size: 30px;
   }
   #intro-h4{
@@ -156,7 +235,7 @@ footer{
   .container{
     margin: 20px 120px;
   }
-  #intro-h2{
+  .intro-h2{
     font-size: 27px;
   }
   #intro-h4{
@@ -190,7 +269,7 @@ footer{
   .intro{
     width: 100%;
   }
-  #intro-h2{
+  .intro-h2{
     font-size: 35px
   }
   #intro-h4{
@@ -206,7 +285,7 @@ footer{
   .intro{
     width: 100%;
   }
-  #intro-h2{
+  .intro-h2{
     font-size: 35px
   }
   #intro-h4{
@@ -223,11 +302,14 @@ footer{
 
 @media only screen and (max-width: 400px) {
 
-  #intro-h2{
+  .intro-h2{
     font-size: 28px
   }
   #intro-h4{
     font-size: 16px;
+  }
+  #nav-container {
+    justify-content: center;
   }
 }
 
