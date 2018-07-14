@@ -47,6 +47,8 @@ body {
   -moz-border-radius: 3px;
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
+  animation: radial-pulse 1s infinite;
+  -webkit-animation: radial-pulse 1s infinite;
 }
 
 /* Skills =========================== */
@@ -315,4 +317,15 @@ footer{
 
 noscript {
   color: #708090;
+}
+
+
+/* Animation */
+@keyframes radial-pulse {
+  0% {
+    box-shadow: 0 0 0px rgba(0, 0, 255, 0.596);
+  }
+  100% {
+    box-shadow: 0 0 50px rgba(0, 0, 255, 0);
+  }
 }
