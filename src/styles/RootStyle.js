@@ -1,7 +1,9 @@
 import styled from 'styled-components'
 import {media} from './Media'
 
-const mainColor = '#22E792';
+// const mainColor = '#22E792';
+
+const mainColor = '#0080ff';
 
 const Container = styled.div`
     margin: 20px 100px;

@@ -48,7 +48,7 @@ const IntroH2 = styled.h2`
 `
 
 const IntroP = styled.h4`
-    font-weight: 100;
+    font-weight: 1;
     font-size: 20px;
     opacity: .8;
 
