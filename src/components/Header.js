@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import '../styles/Nav.css'
 
 const Header = () => {
     return (
@@ -17,6 +18,7 @@ const Header = () => {
                     <a
                         style={{textDecoration:"none",color:"#999BB0"}}
                         href="mailto:sunildy@gmail.com?Subject=Hello%20again" target="_top"
+                        className="navlink"
                     >
                         EMAIL
                     </a>

@@ -2,40 +2,43 @@ import React, {Fragment} from 'react'
 import FaGH from 'react-icons/lib/fa/github'
 import FaInsta from 'react-icons/lib/fa/instagram'
 import FaCodepen from 'react-icons/lib/fa/codepen'
+import '../../styles/Social.css'
 
 const SocialLinks = () => {
     return (
         <Fragment>
-            <h3 className="intro-h2">Social Links</h3>
+            <div className="container">
+            <h3 className="sub-title">Find Me</h3>
             <div className="social">
 
-                <div id="gh">
+                <div className="social-link">
                     <a href="https://github.com/SunilDy" target="_blank" rel="noopener noreferrer">
                         <div>
-                            <FaGH color="white" style={{fontSize:"60px"}}/><br/>
+                            <FaGH color="#24292E" style={{fontSize:"60px"}}/><br/>
                             <p id="s-title">Github</p>
                         </div>
                     </a>
                 </div>
 
 
-                <div id="insta">
+                <div className="social-link">
                 <a href="https://www.instagram.com/sunil_dy" target="_blank" rel="noopener noreferrer">
                     <div>
-                        <FaInsta color="white" style={{fontSize:"60px"}}/><br/>
+                        <FaInsta color="#24292E" style={{fontSize:"60px"}}/><br/>
                         <p id="s-title">Instagram</p>
                     </div>
                 </a>
                 </div>
 
-                <div id="codepen">
+                <div className="social-link">
                 <a href="https://codepen.io/SunilDy/" target="_blank" rel="noopener noreferrer">
                     <div>
-                        <FaCodepen color="white" style={{fontSize:"60px"}}/><br/>
+                        <FaCodepen color="#24292E" style={{fontSize:"60px"}}/><br/>
                         <p id="s-title">Codepen</p>
                     </div>
                 </a>
                 </div>
+            </div>
             </div>
         </Fragment>
     )

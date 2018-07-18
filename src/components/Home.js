@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-
+import '../MediaQuery/Media.css'
 
 import { Helmet } from 'react-helmet'
 
@@ -13,7 +13,7 @@ class Home extends Component {
 
     render () {
         return (
-            <div className="container">
+            <div>
 
                 <Helmet>
                     <title>Sunil Kumar - Portfolio</title>
