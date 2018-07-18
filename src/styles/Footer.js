@@ -35,7 +35,7 @@ const EmailBtn = styled.a`
     text-decoration: none;
     font-size: 18px;
     justify-content: center;
-    background-color: var(--main-color);
+    background-color: ${mainColor};
     padding: 7px 20px;
     border-radius: 4px;
     color: white;
