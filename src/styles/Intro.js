@@ -16,7 +16,7 @@ const TitleContainer = styled.div`
     }
 `;
 
-const IntroDiv = styled.div`
+const IntroDiv = styled.section`
     max-width: 70%;
     margin-bottom: 4em;
 

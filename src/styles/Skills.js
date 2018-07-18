@@ -2,7 +2,7 @@ import styled from 'styled-components'
 import { media } from './Media'
 
 
-const SkillsContainer = styled.div`
+const SkillsContainer = styled.main`
     display: grid;
     grid-template-columns: repeat(3, minmax(70px, 1fr));
     grid-gap: 20px;
