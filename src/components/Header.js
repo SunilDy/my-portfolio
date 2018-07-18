@@ -1,29 +1,37 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import '../styles/Nav.css'
+// import '../styles/Nav.css'
+import { NavContainer, StyledLink, LinkA } from '../styles/Nav'
+import { Container } from '../styles/RootStyle'
+
+// const LinkStyle = {
+//     textDecoration: 'none',
+//     color: '#999',
+//     fontSize: '20px',
+//     paddingLeft: '2em'
+// }
 
 const Header = () => {
     return (
-        <div className="container">
-                <div id="nav-container">
-                    <NavLink to="/" className="navlink"
-                        activeStyle={{ color: '#333', fontWeight:"bold"}}>
+        <Container>
+                <NavContainer>
+                    <StyledLink to="/"
+                        // activeStyle={{ color: '#333', fontWeight:"bold"}}
+                    >
                         PORTFOLIO
-                    </NavLink>
+                    </StyledLink>
 
-                    <NavLink to="/projects" className="navlink"
-                        activeStyle={{ color: '#333', fontWeight:"bold"}}>
+                    <StyledLink to="/projects"
+                        // activeStyle={{ color: '#333', fontWeight:"bold"}}
+                    >
                         PROJECTS
-                    </NavLink>
-                    <a
-                        style={{textDecoration:"none",color:"#999BB0"}}
+                    </StyledLink>
+                    <LinkA
                         href="mailto:sunildy@gmail.com?Subject=Hello%20again" target="_top"
-                        className="navlink"
                     >
                         EMAIL
-                    </a>
-                </div>
-        </div>
+                    </LinkA>
+                </NavContainer>
+        </Container>
     )
 }
 

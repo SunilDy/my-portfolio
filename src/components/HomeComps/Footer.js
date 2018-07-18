@@ -1,20 +1,19 @@
 import React, { Fragment } from 'react'
-import '../../styles/Footer.css'
 import FaEmail from 'react-icons/lib/fa/envelope-o'
+import { FooterContainer,ContentH1, EmailBtn } from '../../styles/Footer'
 
 const Footer = () => (
     <Fragment>
-        <footer>
-            <h1 className="content">
+        <FooterContainer>
+            <ContentH1>
                 <span>Web</span>
                 <span>Developer</span>
-            </h1>
-            <a
+            </ContentH1>
+            <EmailBtn
                 href="mailto:sunildy@gmail.com?Subject=Hello%20again" target="_top"
-                id="email"
             >
                 Say Hello!<FaEmail/>
-            </a>
+            </EmailBtn>
             <div>
                 <p>Made with <span style={{color:"red"}}>♥</span> and hosted on <a
                     style={{color: "#333"}}
@@ -23,7 +22,7 @@ const Footer = () => (
                     </a>
                 </p>
             </div>
-        </footer>
+        </FooterContainer>
     </Fragment>
 )
 

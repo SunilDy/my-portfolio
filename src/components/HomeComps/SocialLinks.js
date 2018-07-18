@@ -2,44 +2,45 @@ import React, {Fragment} from 'react'
 import FaGH from 'react-icons/lib/fa/github'
 import FaInsta from 'react-icons/lib/fa/instagram'
 import FaCodepen from 'react-icons/lib/fa/codepen'
-import '../../styles/Social.css'
+import { Container,SubTitle } from '../../styles/RootStyle'
+import { SocialDiv,P } from '../../styles/Social'
 
 const SocialLinks = () => {
     return (
         <Fragment>
-            <div className="container">
-            <h3 className="sub-title">Find Me</h3>
-            <div className="social">
+            <Container>
+            <SubTitle>Find Me</SubTitle>
+            <SocialDiv>
 
-                <div className="social-link">
+                <div>
                     <a href="https://github.com/SunilDy" target="_blank" rel="noopener noreferrer">
                         <div>
                             <FaGH color="#24292E" style={{fontSize:"60px"}}/><br/>
-                            <p id="s-title">Github</p>
+                            <P>Github</P>
                         </div>
                     </a>
                 </div>
 
 
-                <div className="social-link">
+                <div>
                 <a href="https://www.instagram.com/sunil_dy" target="_blank" rel="noopener noreferrer">
                     <div>
                         <FaInsta color="#24292E" style={{fontSize:"60px"}}/><br/>
-                        <p id="s-title">Instagram</p>
+                        <P>Instagram</P>
                     </div>
                 </a>
                 </div>
 
-                <div className="social-link">
+                <div>
                 <a href="https://codepen.io/SunilDy/" target="_blank" rel="noopener noreferrer">
                     <div>
                         <FaCodepen color="#24292E" style={{fontSize:"60px"}}/><br/>
-                        <p id="s-title">Codepen</p>
+                        <P>Codepen</P>
                     </div>
                 </a>
                 </div>
-            </div>
-            </div>
+            </SocialDiv>
+            </Container>
         </Fragment>
     )
 }
