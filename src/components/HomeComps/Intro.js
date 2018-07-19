@@ -12,19 +12,19 @@ const Intro = () => (
         </TitleContainer>
         <Container>
             <IntroDiv>
-                <SubTitle>ABOUT ME</SubTitle>
-                <IntroP>I'm Sunil Kumar,<br/>
-                I'm an aspiring Full-Stack JavaScript Web Developer
-                based in Odisha, India, Currently doing my Computer
-                Science graduation and working as an intern at Infonix.
+                <IntroP>I am Sunil Kumar,<br/>
+                An aspiring Full-Stack Freelance JavaScript Web Developer
+                based in Odisha, India. Currently doing my computer
+                science graduation. Worked at Infonix for two years as an Front-end web developer.
                 </IntroP>
+                <SubTitle>WHAT I DO</SubTitle>
                 <IntroP>
-                I make Progressive and highly performant Web apps with
+                I make progressive and high performance web apps with
                 modern JavaScript frameworks like React.js, and
                 static site generators like Gatsby and wire them up with
-                powerful backend languages like Node.js and highly performant
-                Databases such as MongoDB and prototype flexible API's using
-                GraphQL and I always make sure there's no bug left behind :)
+                powerful back-end languages like Node.js and highly scalable
+                databases such as MongoDB and prototype flexible APIs using
+                GraphQL. And I always make sure there's no bug left behind : )
                 </IntroP>
                 <TwitterBtn href="https://twitter.com/sunildy9">
                     <FaTwitter color="white"/> Follow me!

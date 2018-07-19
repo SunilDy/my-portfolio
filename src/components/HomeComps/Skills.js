@@ -5,7 +5,7 @@ import { SkillsContainer,SkillTitle,SkillsNames } from '../../styles/Skills'
 const Skills = () => (
     <Fragment>
         <Container>
-            <SubTitle>Skills</SubTitle>
+            <SubTitle>SKILLS</SubTitle>
             <SkillsContainer>
 
                 <div>

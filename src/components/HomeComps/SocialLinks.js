@@ -9,7 +9,7 @@ const SocialLinks = () => {
     return (
         <Fragment>
             <Container>
-            <SubTitle>Find Me</SubTitle>
+            <SubTitle>FIND ME</SubTitle>
             <SocialDiv>
 
                 <div>
