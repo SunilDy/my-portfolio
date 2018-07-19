@@ -1,84 +1,85 @@
 {
-  "short_name": "Portfolio",
+  "short_name": "SunilDy",
   "name": "Sunil Kumar - Portfolio",
+  "description": "I am Sunil Kumar, An aspiring Full-stack JavaScript web developer based in Odisha, India. Currently doing my computer science graduation. Worked at Infonix for two years as an Front-end web developer",
   "icons": [
     {
-      "src": "./icons/favicon.ico",
+      "src": "icons/favicon.ico",
       "sizes": "310x310 192x192 96x96 64x64 32x32 24x24 16x16",
       "type": "image/ico"
     },
     {
-      "src": "./icons/apple-touch-icon-57x57.png",
+      "src": "icons/apple-touch-icon-57x57.png",
       "sizes": "57x57",
       "type": "image/png"
     },
     {
-      "src": "./icons/apple-touch-icon-60x60.png",
+      "src": "icons/apple-touch-icon-60x60.png",
       "sizes": "60x60",
       "type": "image/png"
     },
     {
-      "src": "./icons/apple-touch-icon-72x72.png",
+      "src": "icons/apple-touch-icon-72x72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "./icons/apple-touch-icon-76x76.png",
+      "src": "icons/apple-touch-icon-76x76.png",
       "sizes": "76x76",
       "type": "image/png"
     },
     {
-      "src": "./icons/apple-touch-icon-114x114.png",
+      "src": "icons/apple-touch-icon-114x114.png",
       "sizes": "114x114",
       "type": "image/png"
     },
     {
-      "src": "./icons/apple-touch-icon-120x120.png",
+      "src": "icons/apple-touch-icon-120x120.png",
       "sizes": "120x120",
       "type": "image/png"
     },
     {
-      "src": "./icons/apple-touch-icon-144x144.png",
+      "src": "icons/apple-touch-icon-144x144.png",
       "sizes": "144x144",
       "type": "image/png"
     },
     {
-      "src": "./icons/apple-touch-icon-152x152.png",
+      "src": "icons/apple-touch-icon-152x152.png",
       "sizes": "152x152",
       "type": "image/png"
     },
     {
-      "src": "./icons/favicon-128x128.png",
+      "src": "icons/favicon-128x128.png",
       "sizes": "128x128",
       "type": "image/png"
     },
     {
-      "src": "./icons/favicon-144x144.png",
+      "src": "icons/favicon-144x144.png",
       "sizes": "114x114",
       "type": "image/png"
     },
     {
-      "src": "./icons/favicon-150x150.png",
+      "src": "icons/favicon-150x150.png",
       "sizes": "150x150",
       "type": "image/png"
     },
     {
-      "src": "./icons/favicon-196x196.png",
+      "src": "icons/favicon-196x196.png",
       "sizes": "196x196",
       "type": "image/png"
     },
     {
-      "src": "./icons/favicon-310x310.png",
+      "src": "icons/favicon-310x310.png",
       "sizes": "310x310",
       "type": "image/png"
     },
     {
-      "src": "./icons/mstile-70x70.png",
+      "src": "icons/mstile-70x70.png",
       "sizes": "70x70",
       "type": "image/png"
     },
     {
-      "src": "./icons/favicon-500x500.png",
+      "src": "icons/favicon-500x500.png",
       "sizes": "500x500",
       "type": "image/png"
     }
@@ -86,6 +87,7 @@
   ],
   "start_url": "./index.html",
   "display": "standalone",
-  "theme_color": "#E4405F",
-  "background_color": "#E4405F"
+  "theme_color": "#0080ff",
+  "background_color": "#333",
+  "lang": "en-US"
 }
